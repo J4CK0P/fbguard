@@ -19,48 +19,51 @@ blue='\e[1;34m'
 cyan='\e[1;36m'
 red='\e[1;31m'
 clear
-echo -b "
+echo -u "
+
     📌ᏔᎬᏞᏟϴᎷᎬ📌
      ©PP  GUARD®
 █║▌│█│║▌║│█║║▌│█║│█
   🛠️ J4CKOP TOOLS 🛠️
+                      
 
-echo "";
-figlet TOOLS GUARD PP | lolcat
 
-echo -b " CODED BY J4CKOP $green " |lolcat
-echo -b " FIND ME ON FB : Azis Wirahadi $green " |lolcat
-figlet TOOLS GUARD PP | lolcat
+
+
+
+
 
 ###################################################
 # CTRL + C                                        #
 ###################################################
 
-trap ctrl_c INT
-ctrl_c() {
-clear
-echo -b $green"[#]> (Ctrl + C ) Detected, Trying To Exit ... " |lolcat
-echo -b $green"[#]> MAKASIH UDH PAKE TOOLS GUE " |lolcat
+
+
+
+
+
 sleep 1
 echo ""
-echo -b $green"[#]> J4CKOP WAS HERE" |lolcat
+echo -b $green"[#]> J4CKOP WAS HERE" | lolcat
 
-echo -b $green"[#]> See you Again :)..." |lolcat
+echo -b $green"[#]> See you Again :)..." | lolcat
 sleep 1
-exit
-}
+
+
 
 lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
 echo -e $b "1. PP GUARD${enda}";
+
 echo -e $b "2. JADWAL SHOLAT${enda}";
+
 echo -e $b "00. Exit${enda}";
 echo -e "╭─\h[PILIH AJA NOMERNYA]" | lolcat
 read -p "╰─#" pil;
 
-case $pil in
+
 
 1) echo "J4CKOP TOOLS-PP GUARD" | lolcat
     		pkg install php
