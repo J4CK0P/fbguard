@@ -27,7 +27,7 @@ echo "\033[31;1mPemograman:""\033[37;1mPYTHON2"
 echo "\033[31;1mAuthor:""\033[37;1mJ4CKOP"
 sleep 5
 clear
-cd $HOME/fbguard/Noxturnix/guardn
+cd $HOME/fbguard/guardn
 python2 guardn.py
 fi
 
@@ -40,7 +40,7 @@ echo "\033[31;1mPemograman:""\033[37;1mPHP"
 echo "\033[31;1mAuthor:""\033[37;1mJ4CKOP"
 sleep 5
 clear
-cd $HOME/fbguard/siputra12/sholatoy
+cd $HOME/fbguard/sholatoy
 php run.php
 fi
 
