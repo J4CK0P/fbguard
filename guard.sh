@@ -51,8 +51,8 @@ sleep 1
 
 
 
-lagi=1
-while [ $lagi -lt 6 ];
+
+
 do
 echo ""
 echo -e $b "1. PP GUARD${enda}";
@@ -62,28 +62,36 @@ echo -e $b "2. JADWAL SHOLAT${enda}";
 echo -e $b "00. Exit${enda}";
 echo -e "╭─\h[PILIH AJA NOMERNYA]" | lolcat
 read -p "╰─#" pil;
+read mrrm
 
-
-
-1) echo "J4CKOP TOOLS-PP GUARD" | lolcat
+if [ $mrrm = 1 ] || [ $mrrm = 1 ]
+then
+clear
+ echo "J4CKOP TOOLS-PP GUARD"
     		pkg install php
     		pkg install git
     		git clone https://github.com/Noxturnix/guardn
     		cd guardn
     		python2 guardn.py
-
+            fi
     		;;
-2) echo "J4CKOP TOOLS JADWAL SHOLAT" | lolcat
+if [ $mrrm = 2 ] || [ $mrrm = 2 ]
+then
+clear
+echo "J4CKOP TOOLS JADWAL SHOLAT" 
     		pkg install php
     		pkg install git
     		git clone https://github.com/siputra12/sholatoy
     		cd sholatoy
         php run.php
-
+           fi
     		;;
-        
-        00) echo "BYE BYE PARA HEKER,INCARLAH SESUATU YG MUSTAHIL" | lolcat
-exit
+       
+       if [ $mrrm = 00 ] || [ $mrrm = 00 ]
+then
+clear
+        echo "BYE BYE PARA HEKER,INCARLAH SESUATU YG MUSTAHIL" | lolcat
+fi
 ;;
 
 *) echo "Sorry, Your choices it's not already [SHT]"
@@ -91,3 +99,5 @@ esac
 done
 done
 echo "Done Sayang :*"
+sleep 1
+fi
