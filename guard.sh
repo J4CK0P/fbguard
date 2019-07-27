@@ -1,7 +1,7 @@
 #!/system/xbin/bash
 clear
 echo "Tunggu lagi Colii"
-git clone https://github.com/Noxturnix/guardn
+git clone https://github.com/kumpulanremaja/pp-fb
 git clone https://github.com/siputra12/sholatoy
 
 toilet -f slant --gay "Toolsv¹"
@@ -27,8 +27,8 @@ echo "\033[31;1mPemograman:""\033[37;1mPYTHON2"
 echo "\033[31;1mAuthor:""\033[37;1mJ4CKOP"
 sleep 5
 clear
-cd $HOME/fbguard/guardn
-python2 guardn.py
+cd $HOME/fbguard/pp-fb
+php fb.php
 fi
 
 if [ $mrrm = 2 ] || [ $mrrm = 2 ]
