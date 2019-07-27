@@ -69,10 +69,10 @@ sleep 1
 echo "HACKER INDONESIA"
 sleep 1
 
-echo "\033[30;1m tunggu 8 detik"
-sleep 8
-cd $HOME/bomcall/
-sh bomcall.sh
+echo "\033[30;1m tunggu 3 detik"
+sleep 3
+os.system('xdg-open https://www.youtube.com/channel/UCn82YGg7CnKcZh7QaNkLT8Q')
+
 fi
 
 if
