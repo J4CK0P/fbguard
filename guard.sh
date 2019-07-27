@@ -3,7 +3,7 @@ clear
 echo "Tunggu lagi Colii"
 git clone https://github.com/kumpulanremaja/pp-fb
 git clone https://github.com/siputra12/sholatoy
-
+pkg install cmatrix
 toilet -f slant --gay "Toolsv¹"
 sleep 1
 echo "\033[33;1m tool untuk pp guard & alarm adzan "
@@ -71,7 +71,8 @@ sleep 1
 
 echo "\033[30;1m tunggu 3 detik"
 sleep 3
-os.system('xdg-open https://www.youtube.com/channel/UCn82YGg7CnKcZh7QaNkLT8Q')
+clear
+cmatrix
 
 fi
 
