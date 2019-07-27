@@ -46,7 +46,7 @@ sleep 1
 echo ""
 echo -b $green"[#]> J4CKOP WAS HERE" | lolcat
 
-echo -b $green"[#]> See you Again :)..." | lolcat
+
 sleep 1
 
 
